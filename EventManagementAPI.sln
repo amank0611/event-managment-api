@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementAPI", "EventManagementAPI\EventManagementAPI.csproj", "{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libaraies", "Libaraies", "{D5CD6920-BF7D-4473-8C44-6EC4A04F4D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C2320FE4-2EC2-49AD-AF24-0280660B8710}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagement.Application", "EventManagement.Application\EventManagement.Application.csproj", "{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagement.Domain", "EventManagement.Domain\EventManagement.Domain.csproj", "{37DABC8A-7561-4247-9860-17D9AFF42875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagement.Infrastructure", "EventManagement.Infrastructure\EventManagement.Infrastructure.csproj", "{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{15C273B0-5265-4F03-A55C-02E1996D6265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagement.SpecFlow", "EventManagement.SpecFlow\EventManagement.SpecFlow.csproj", "{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DABC8A-7561-4247-9860-17D9AFF42875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DABC8A-7561-4247-9860-17D9AFF42875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DABC8A-7561-4247-9860-17D9AFF42875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DABC8A-7561-4247-9860-17D9AFF42875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{989AA9E6-A7B3-4A78-BD3D-56FEBB70309F} = {C2320FE4-2EC2-49AD-AF24-0280660B8710}
+		{4C9ECB78-6A8B-4EA3-87E1-7FBAD357F644} = {D5CD6920-BF7D-4473-8C44-6EC4A04F4D12}
+		{37DABC8A-7561-4247-9860-17D9AFF42875} = {D5CD6920-BF7D-4473-8C44-6EC4A04F4D12}
+		{BCA2BB7F-63FE-4E5E-82F9-8D3D950DDB00} = {D5CD6920-BF7D-4473-8C44-6EC4A04F4D12}
+		{A07DA3AB-E5C5-4C72-B681-0F0B81DB98FE} = {15C273B0-5265-4F03-A55C-02E1996D6265}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B46D60C-9A43-4591-AE6E-4A26EF1247D3}
+	EndGlobalSection
+EndGlobal
